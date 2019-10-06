@@ -27,7 +27,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('heysumir@gmail.com', 'lxmvdrhyhggirbzg')
+    server.login('heysumir@gmail.com', 'yourPassword')
 
     subject = 'Price fell down'
     body = 'Check amazon https://www.amazon.in/Apple-iPad-Tablet-Wi-Fi-Space/dp/B07C4YKR3J/ref=sr_1_1?keywords=ipad+6th+gen&qid=1570369254&s=apparel&sr=8-1'
